@@ -15,8 +15,8 @@ dependencies:
   cupertino_icons: ^1.0.8
 
   # لوحة الشطرنج + منطق اللعبة (قواعد، كش ملك، تعادل...)
-  flutter_chess_board: ^1.0.4
-  chess: ^0.8.1
+  flutter_chess_board: ^1.0.1
+  chess: ^0.7.0
 
   # محرك Stockfish للعب ضد الكمبيوتر
   stockfish: ^1.8.1
