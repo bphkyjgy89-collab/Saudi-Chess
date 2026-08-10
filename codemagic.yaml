@@ -4,13 +4,13 @@ workflows:
     max_build_duration: 60
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: SaudiChess_ASC_Key   # غيّرها لاسم مفتاح ASC عندك بـ Codemagic
+      app_store_connect: codemagic   # غيّرها لاسم مفتاح ASC عندك بـ Codemagic
     environment:
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.saudichess.app
       vars:
-        APP_STORE_APPLE_ID: 0000000000        # حط Apple ID الرقمي بعد إنشاء التطبيق بـ App Store Connect
+        APP_STORE_APPLE_ID: 6799867061        # حط Apple ID الرقمي بعد إنشاء التطبيق بـ App Store Connect
       flutter: stable
       xcode: latest
       cocoapods: default
