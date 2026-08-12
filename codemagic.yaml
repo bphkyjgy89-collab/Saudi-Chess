@@ -7,8 +7,10 @@ workflows:
       app_store_connect: admin key
     environment:
       ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.saudichess.app
+        provisioning_profiles:
+          - saudichess_appstore
+        certificates:
+          - saudichess_distribution_p12
       vars:
         APP_STORE_APPLE_ID: 6799867061
         BUNDLE_ID: com.saudichess.app
